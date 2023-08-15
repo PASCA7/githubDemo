@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>maneesh</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Maneesh</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>maneesh.yadav</sys_created_by>
+        <sys_created_on>2023-08-14 18:45:12</sys_created_on>
+        <sys_id>ae8fde1b97e03110cbc0fcdfe153af24</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Maneesh</sys_name>
+        <sys_package display_value="githubDemo" source="44fffd1b97603110cbc0fcdfe153af73">44fffd1b97603110cbc0fcdfe153af73</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="githubDemo">44fffd1b97603110cbc0fcdfe153af73</sys_scope>
+        <sys_update_name>sp_widget_ae8fde1b97e03110cbc0fcdfe153af24</sys_update_name>
+        <sys_updated_by>maneesh.yadav</sys_updated_by>
+        <sys_updated_on>2023-08-14 18:45:32</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  Hello world
+</div>]]></template>
+    </sp_widget>
+</record_update>
