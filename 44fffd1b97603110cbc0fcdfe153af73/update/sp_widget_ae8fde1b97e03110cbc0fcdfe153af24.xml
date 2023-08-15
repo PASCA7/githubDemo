@@ -23,18 +23,22 @@
         <sys_created_by>maneesh.yadav</sys_created_by>
         <sys_created_on>2023-08-14 18:45:12</sys_created_on>
         <sys_id>ae8fde1b97e03110cbc0fcdfe153af24</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Maneesh</sys_name>
         <sys_package display_value="githubDemo" source="44fffd1b97603110cbc0fcdfe153af73">44fffd1b97603110cbc0fcdfe153af73</sys_package>
         <sys_policy/>
         <sys_scope display_value="githubDemo">44fffd1b97603110cbc0fcdfe153af73</sys_scope>
         <sys_update_name>sp_widget_ae8fde1b97e03110cbc0fcdfe153af24</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-15 06:33:43</sys_updated_on>
-        <template><![CDATA[<div>
-<!-- your widget template -->
-  Hello world
-  This is Maneesh Yadav
-</div>]]></template>
+        <sys_updated_by>maneesh.yadav</sys_updated_by>
+        <sys_updated_on>2023-08-15 18:07:31</sys_updated_on>
+        <template><![CDATA[
+<div>
+<sp-date-picker sn-include-time="false"  field="toDate.start" ng-model="toDate.start" ng-change="c.onchange(toDate)"></sp-date-picker>
+  
+  <br>
+  <br>
+  <sp-date-picker sn-include-time="false"  field="toDate.end" ng-model="toDate.end" ng-change="c.onchange(toDate)"></sp-date-picker>
+</div>
+]]></template>
     </sp_widget>
 </record_update>
